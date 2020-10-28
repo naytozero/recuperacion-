@@ -1,4 +1,4 @@
-def OperacionArtcNMVA():
+def Operacion_aritmetica():
     str
     operacion=float(input("ingrese que operacion quiere hacer (1) suma, (2) resta, (3) multiplicacion, (4) division, (5) potencia:"))
     num1=float(input("ingresar el primer numero: "))
@@ -23,4 +23,4 @@ def OperacionArtcNMVA():
     if (operacion==5) :
         potencia=num1**num2
         print("el reultado es", potencia)
-OperacionArtcNMVA()
+Operacion_aritmetica()
